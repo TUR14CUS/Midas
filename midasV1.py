@@ -2,6 +2,8 @@ import scapy.all as scapy
 import time
 import argparse
 import ipaddress 
+from scapy.layers import http
+from typing import Optional
 
 def get_arguments():
     # Parse command line arguments
